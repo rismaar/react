@@ -1,0 +1,46 @@
+.myBg{
+    height: 100vh;
+    background: url("../asset/bg/bg.png");
+    background-size: cover;
+}
+
+.intro{
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 4px;
+}
+
+.trending{
+    height: auto;
+    background: url("../asset/bg/bg1.jpg");
+    background-size: cover;
+}
+
+.best{
+    height: auto;
+    background: url("../asset/bg/bg6.JPG");
+    background-size: cover;
+}
+
+.button:hover{
+    box-shadow: 4px 4px 10px 2px rgba(253, 253, 253, 0.541), 6px 10px 10px 4px rgba(255, 255, 255, 0.19);
+}
+.gameImg{
+    height: auto;
+    background-color: rgb(10, 10, 10);
+    margin: 5px;
+    padding: 5px;
+}
+
+.imgs{
+    height: 500px;
+}

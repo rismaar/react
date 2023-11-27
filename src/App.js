@@ -1,25 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import "./style/landing.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Intro from './component/intro';
+import NavigateBar from './component/navigate';
+import TrendGame from './component/trending';
+import BestGame from './component/best';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+function App(){
+  return(
+    <div>
+      <div className='myBg'>
+        <NavigateBar />
+        <Intro />
+      </div>
+
+      <div className='trending'>
+        <TrendGame />
+      </div>
+
+      <div className='best'>
+        <BestGame />
+      </div>
     </div>
-  );
+  )
 }
+
 
 export default App;
